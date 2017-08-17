@@ -17,13 +17,13 @@ console.log(villes.some(function(element){
 }));
 
 villesSansTiretSansEspace = villes.filter(function(element){
-    return(element.indexOf(" ")==-1 && element.indexOf("-")==-1);
+    return(element.indexOf(" ")===-1 && element.indexOf("-")===-1);
 })
 
 console.log(villesSansTiretSansEspace);
 
 villeMajusculeSeTerminantParS = villes.filter(function(element){
-    if(element.substring(element.length-1,element.length) == 's'){
+    if(element.slice(-1) === 's'){
         return element;
     }
 }).map(function(element){
