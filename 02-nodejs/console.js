@@ -41,5 +41,3 @@ rl.on('line', function(line) {
 });
   rl.setPrompt(prefix, prefix.length);
   rl.prompt();
-
-
