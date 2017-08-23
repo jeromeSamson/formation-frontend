@@ -1,0 +1,3 @@
+.ng-pristine { border:1px solid blue; }
+.ng-dirty.ng-valid { border:1px solid green; }
+.ng-dirty.ng-invalid { border:1px solid red; }
