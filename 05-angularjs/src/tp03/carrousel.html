@@ -1,8 +1,11 @@
 <section id="tp03">
     <h1>TP 03 - Carrousel d'images</h1>
-    <div ng-controller="CarrouselCtrl">
-            <input type="button" ng-click="next()" value="Next">
-            <input type="button" ng-click="previous()" value="Previous">
-        <img ng-src="{{images[currentId].url}}" ng-click="next()"/>
+    <div ng-controller="CarrouselCtrl as ctrl">
+            <input type="button" ng-click="ctrl.previous()" value="Previous">
+            <input type="button" ng-click="ctrl.next()" value="Next">
+            <br>
+            <br>
+            <span>{{ctrl.images[ctrl.currentId].name}}</span>
+        <img ng-src="{{ctrl.images[ctrl.currentId].url}}" ng-click="ctrl.next()" ng-dblclick="ctrl.previous()"/>
     </div>
     </section>
