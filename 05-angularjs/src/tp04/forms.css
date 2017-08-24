@@ -1,3 +1,10 @@
-.ng-pristine { border:1px solid blue; }
-.ng-dirty.ng-valid { border:1px solid green; }
-.ng-dirty.ng-invalid { border:1px solid red; }
+
+#tp04 input.ng-dirty.ng-invalid,
+#tp04 .ng-submitted input.ng-invalid {
+    background-color: red;
+}
+
+#tp04 input.ng-dirty.ng-valid,
+#tp04 .ng-submitted input.ng-valid {
+    color: green;
+}
