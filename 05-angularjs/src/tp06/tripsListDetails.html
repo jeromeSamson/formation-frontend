@@ -1,0 +1,15 @@
+<section id="tp06" ng-controller="TripListDetailController as ctrl">
+    <h1>TP 06 - Communication avec $resource</h1>
+    <div ng-repeat="item in ctrl.data">
+        <form name='form'>
+                <p name="name" ng-model="name"> {{item.name}} - <strong>{{item.price}} €</strong> </p>
+                <img ng-src={{item.imageUrl}} width="30%" name="image" ng-click="showDetails = ! showDetails">
+                <br>
+                <div ng-show="showDetails">
+                    <textarea cols="50" type="text" name="desc" ng-model="item.description" ></textarea>
+                    <button type="submit" ng-click="ctrl.save(item)">Update</button>
+                </div>
+                
+        </form>
+    </div>
+</section> 

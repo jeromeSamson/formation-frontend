@@ -8,9 +8,9 @@
     },
     {
       "id": "nyc",
-      "name": "New York",
+      "name": "New-york",
       "imageUrl": "img/nyc.jpg",
-      "price": "120"
+      "price": "1500"
     },
     {
       "id": "rome",
@@ -129,7 +129,7 @@
       "imageUrl": "img/rome.jpg",
       "price": "174",
       "initialPrice": "180",
-      "description": "Rome ne s'est pas faite en un jour, mais Rome ne se visite pas en un jour non plus. On se croirait dans un gigantesque musée en plein air : vous vous retrouvez au milieu d'un authentique assemblage de « piazzas », de marchés en plein air et de sites historiques fascinants. Jetez une pièce dans la fontaine de Trevi, pâmez-vous d'admiration au Colisée et au Panthéon, puis prenez un cappuccino pour refaire le plein d'énergie au cours d'un après-midi shopping au Campo de'Fiori ou dans la Via Veneto. Enfin, pour conclure votre journée en beauté, offrez-vous un repas inoubliable et en commandez un bon plat de pâtes fraîches, de délicieux artichauts frits ou encore un tendre ragoût de queue de bœuf.",
+      "description": "ne s'est pas faite en un jour, mais Rome ne se visite pas en un jour non plus. On se croirait dans un gigantesque musée en plein air : vous vous retrouvez au milieu d'un authentique assemblage de « piazzas », de marchés en plein air et de sites historiques fascinants. Jetez une pièce dans la fontaine de Trevi, pâmez-vous d'admiration au Colisée et au Panthéon, puis prenez un cappuccino pour refaire le plein d'énergie au cours d'un après-midi shopping au Campo de'Fiori ou dans la Via Veneto. Enfin, pour conclure votre journée en beauté, offrez-vous un repas inoubliable et en commandez un bon plat de pâtes fraîches, de délicieux artichauts frits ou encore un tendre ragoût de queue de bœuf.",
       "steps": [
         {
           "number": 1,
