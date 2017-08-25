@@ -1,0 +1,19 @@
+<section id="tp07" ng-controller="TripsController as ctrl">
+    <h1>TP 07 - Services</h1>
+    <div>
+        <select ng-change="ctrl.steps() || ctrl.comment()" ng-model="ctrl.choix">
+            <option value="{{option.id}}" ng-repeat="option in ctrl.dataLight" ng-model="name">{{option.name}}</option>
+        </select>
+    </div>
+    <br>
+    <div ng-show="ctrl.choix!=undefined">
+            <img ng-repeat="item in ctrl.step.steps" ng-src={{item.imageUrl}}>   
+            <ul>
+                <li ng-repeat="item in ctrl.comments.comments">{{item.id}} : {{item.text}}</li>    
+            </ul>
+            <textarea ng-model='ctrl.newComment'></textarea>
+            <button type="button" ng-click="ctrl.saveComment()">Sauvegarder</button>
+
+    </div>
+        
+</section>
