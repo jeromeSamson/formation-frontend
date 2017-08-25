@@ -11,6 +11,9 @@ class CommentsService {
     }
   
     addComment(comment, trip) {
+        if(!trip.comments){
+          trip.comments = [] 
+        }
         trip.comments.push({id:'anonymous',text:comment})
         trip.$update()
     } 
